@@ -1,7 +1,5 @@
-import {useState} from 'react'
-
 function Explorer({data}) {
-const[isOpen, setIsOpen] = useState(false)
+  const[isOpen, setIsOpen] = useState(false)
 
     if(data.isFolder) {
         return (
