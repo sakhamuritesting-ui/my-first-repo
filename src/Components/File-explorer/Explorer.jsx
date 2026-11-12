@@ -1,3 +1,5 @@
+import {useState} from 'react'
+
 function Explorer({data}) {
   const[isOpen, setIsOpen] = useState(false)
 
